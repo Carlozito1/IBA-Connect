@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body{
+    background-color:#0F0F0F ;
+    margin: 10px 40px 10px 40px;
+}
+h1{
+    background: linear-gradient(to right, #26E4C2, #459FF5);
+    min-width: fit-content;
+   -webkit-background-clip: text; 
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0px 0px 15px;
+    font-size: 70px;
+
+}
+h2{
+    color: #FCFCFC;
+    margin: 15px 15px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(4, 80px) ;
+    gap: 60px;
+    margin: 40px 15px 15px 15px; 
+    
+}
+
+@media only screen and(max-width: 800px) {
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 20px;
+        justify-items: start;
+        
+    }
+    
+}
+.Undervisere{
+    
+    display: flex;
+    text-align: center;
+    font-size: medium;
+    gap: 60px;
+    margin-top: 100px;
+   
+
+}
+.AnneBreson{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FCFCFC;
+    text-decoration: none;
+}
+
+.AnneBreson a {
+    text-decoration: none;
+    color: white;
+}
+
+.KarenMalene {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FCFCFC;
+    text-decoration: none;
+}
+.KarenMalene a {
+    text-decoration: none;
+    color: white;
+}
+.JohnAhle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FCFCFC;
+    text-decoration: none;
+}
+.JohnAhle a {
+    text-decoration: none;
+    color: white;
+}
+.CeliaElkjær {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FCFCFC;
+    text-decoration: none;
+}
+.CeliaElkjær a {
+    text-decoration: none;
+    color: white;
+}
+.h2logo{
+display: flex;
+margin-top: 50px;
+align-items: center;
+gap: 50px;
+
+}
+
+@media screen and (max-width: 900px){
+    
+    .Undervisere{
+        flex-direction: column;
+    }
+}
