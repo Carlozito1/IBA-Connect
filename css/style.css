@@ -47,46 +47,46 @@ h2{
     display: flex;
     text-align: center;
     font-size: medium;
-    gap: auto;
+    gap: 50px;
     margin-top: 100px;
    
 
 }
-.AnneBreson{
+.Kollega1{
     font-family: Arial, Helvetica, sans-serif;
     color: #FCFCFC;
     text-decoration: none;
 }
 
-.AnneBreson a {
+.Kollega1 a {
     text-decoration: none;
     color: white;
 }
 
-.KarenMalene {
+.Kollega2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #FCFCFC;
     text-decoration: none;
 }
-.KarenMalene a {
+.Kollega2 a {
     text-decoration: none;
     color: white;
 }
-.JohnAhle {
+.Kollega3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #FCFCFC;
     text-decoration: none;
 }
-.JohnAhle a {
+.Kollega3 a {
     text-decoration: none;
     color: white;
 }
-.CeliaElkjær {
+.Kollega4 {
     font-family: Arial, Helvetica, sans-serif;
     color: #FCFCFC;
     text-decoration: none;
 }
-.CeliaElkjær a {
+.Kollega4 a {
     text-decoration: none;
     color: white;
 }
