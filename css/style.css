@@ -27,6 +27,7 @@ h2{
 }
 .Logo{
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(4, 80px) ;
     gap: 60px;
     margin: 40px 15px 15px 15px;
@@ -36,16 +37,24 @@ h2{
     transform: scale(1.05);
 }
 
-@media only screen and(max-width: 800px) {
-    .logo{
+@media only screen and (max-width: 800px) {
+    .Logo{
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
-        gap: 20px;
+        grid-template-rows: auto;
+        gap: 10px;
         justify-items: start;
-        h1{font: size 48px; ;}
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
     }
 
-    
+    .Logo img {
+        width: 65px;
+    }
 }
 .Undervisere{
     
