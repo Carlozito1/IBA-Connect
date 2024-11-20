@@ -122,6 +122,7 @@ gap: 50px;
 list-style-type: none;
 padding: 20px;
 
+
 }
 .brødkrumme a{
     color: #FCFCFC;
@@ -132,8 +133,9 @@ padding: 20px;
 }
 .brødkrumme1 {
     font-weight:80;
-    opacity: 0.6; 
+    opacity: 0.6;
+    font-weight: bold;
 }
 .brødkrumme2 {
-    font-weight: regular;
+    font-weight: bold;
 }
